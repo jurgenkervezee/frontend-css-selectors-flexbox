@@ -9,7 +9,7 @@ body {
 }
 
 /* 1.1 Geef de 'img' tag in the header een ID en zet zijn breedte op 100% */
-#image-header{
+#image-header {
     width: 100%;
 }
 
@@ -17,36 +17,45 @@ body {
 ul > li {
     color: hsl(110, 29%, 52%);
 }
+
 /* 1.3 Geef de 'span' tag in de footer een beschrijvende class name en maak de lettergrootte kleiner  */
-#trade-mark{
+#trade-mark {
     font-size: 4px;
 }
+
 /* 1.4 Haal de text-decoration van navigatie-links weg, geef onbezochte links de kleur hsl(359, 79%, 56%) en verander de kleur wanneer de gebruiker er overheen hovert. */
 nav a {
     text-decoration: none;
 }
-nav a:link{
+
+nav a:link {
     color: hsl(359, 79%, 56%);
 }
-nav a:hover{
+
+nav a:hover {
     color: purple;
 }
+
 /* 1.5 Maak een hover- en visited stijl voor alle links in 'main'. */
-main a:hover{
+main a:hover {
     color: purple;
 }
-main a:visited{
-    color:deeppink;
+
+main a:visited {
+    color: deeppink;
 }
+
 /* Verander de achtergrond van de SignUp button. Tip: https://developer.mozilla.org/en-US/docs/Web/CSS/Attribute_selectors  */
-div [value="Signup"]{
+div [value="Signup"] {
     background-color: magenta;
 }
+
 /* Geef het tekst-veld een blauwe rand wanneer hij in focus is */
 .input[type=text]:focus {
-    border:5px solid red;
+    border: 5px solid red;
     background-color: red;
 }
+
 /* Target alle heading tags op de pagina en zet hun font-family op 'Noto Sans JP', sans-serif */
 
 
